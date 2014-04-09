@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
 	char *names[] = {
 		"Alan", "Frank",
 		"Mary", "John", "Lisa"
-	}
+	};
 
 	// safely get the size of ages
 	int count = sizeof(ages) / sizeof(int);
@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 	// first way using indexing
 	for (i = 0; i < count; i++) {
 		printf("%s has %d years alive.\n",
-			names[i], ages[i];
+			names[i], ages[i]);
 	}
 	
 	printf("---\n");
